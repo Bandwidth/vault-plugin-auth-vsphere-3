@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  schemaVersion: v1.0.0
+  name: vault-plugin-auth-vsphere-3
+  description: Forked from https://github.com/martezr/vault-plugin-auth-vsphere
+  annotations:
+    github.com/project-slug: Bandwidth/vault-plugin-auth-vsphere-3
+  organization: BW
+  costCenter: Development - Software Infra
+  platformType: N/A
+  buildPlatform: GitHub Actions
+spec:
+  type: Library
+  owner: github/band-swi
+  lifecycle: Prototype
+  dependsOn:
+    - resource:platform/GitHub Actions
+    - resource:cost-center/Development - Software Infra
